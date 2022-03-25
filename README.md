@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+**Question 1** (Check github for starter containing images and data)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Team List**
 
-## Available Scripts
+Users using the PL Zone application should see a list of all the teams participating in the Premier League on the home page.
 
-In the project directory, you can run:
+a. Every team’s card should have the logo, the name of the team and the name of the home stadium for the team.
 
-### `npm start`
+b. The background image for the card should show a picture of the team’s home stadium.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+c. Clicking on the card should navigate the users to the team page of the application where they can see additional information about that team.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+d. Note for the candidates: Candidates should, at least, match the UI shown in figure given in Read Me file. The JSON data provided to the candidates in the ‘data’ folder contains all the information required to complete this user story.
 
-### `npm test`
+e. They need to implement the correct routing.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Question 2**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Header**
 
-### `npm run eject`
+Users using the PL Zone application should see a header at the top of the page. The header is divided into several sections.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+a. The brand logo of the Premier League should be shown on the extreme left of this section. Clicking on this logo will always navigate the user back to the home page. The first section at the top of the header will contain thumbnails of all the 20 teams participating in the league.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+b. Clicking on any of these thumbnails should direct the user to the club’s official website. The second section below the thumbnails will have the brand name of the application.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+c. Note for the candidates: Candidates need to create a header for the application, as shown in Reference picture. The image for the logo can be found in the assets folder under the ‘src’ folder.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+d. The thumbnails for the team crests can be used from the JSON data provided in the ‘data’ folder. Candidates are expected to at least match the styling shown in the figure below. They are free to add their own set of styling to improve the CSS, if needed.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Question 3**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Create Table**
 
-### Code Splitting
+Users using the PL Zone application should see a table showing the current standings of each team in the league.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+a. The table should be seen on the right side of the home page.
 
-### Analyzing the Bundle Size
+b. Each row of the table should contain the rank, the crest and the name of the football club at that position, the number of matches played, goal difference, and points.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+c. Note for the candidates: Candidates should, at least, match the UI shown in the Read Me file. The JSON data provided to the candidates in the ‘data’ folder contains all the information required to complete this user story.

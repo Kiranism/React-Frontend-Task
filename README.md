@@ -43,3 +43,10 @@ a. The table should be seen on the right side of the home page.
 b. Each row of the table should contain the rank, the crest and the name of the football club at that position, the number of matches played, goal difference, and points.
 
 c. Note for the candidates: Candidates should, at least, match the UI shown in the Read Me file. The JSON data provided to the candidates in the ‘data’ folder contains all the information required to complete this user story.
+
+
+
+**Reference Image**
+
+
+<img src="https://github.com/Kiranism/React-Frontend-Task/blob/main/src/assets/reference/task%20react.png">
